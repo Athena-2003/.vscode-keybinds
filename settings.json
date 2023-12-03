@@ -1,5 +1,12 @@
 {
-  "workbench.colorTheme": "GitHub Dark Default",
+  "workbench.colorCustomizations": {
+    "editor.background": "#000000",
+    "editor.selectionBackground": "#393646",
+    "activityBar.background": "#000000",
+    "statusBar.background": "#000000",
+    "editorGutter.background": "#000000"
+  },
+  "workbench.colorTheme": "Rosé Pine",
   "workbench.iconTheme": "vscode-icons",
   "terminal.integrated.fontFamily": "Cascadia Code PL",
   "terminal.integrated.inheritEnv": false,
@@ -53,7 +60,7 @@
     },
     // NICE TO HAVE
     { "before": ["leader", "w"], "commands": [":w!"] },
-    { "before": ["leader", "q"], "commands": [":q"] },
+    { "before": ["leader", "q"], "commands": [":q!"] },
     { "before": ["leader", "x"], "commands": [":x!"] },
     {
       "before": ["[", "d"],
@@ -77,5 +84,9 @@
   "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "python.defaultInterpreterPath": "/home/shashankbn/Documents/garbage/llama/testing/venv"
+  "python.defaultInterpreterPath": "/bin/python",
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.sideBar.location": "right"
 }
